@@ -2,18 +2,33 @@
 <html lang="tr">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>DOSTY Menü</title>
+
   <style>
-    body{margin:0;background:#f5f2ee;display:flex;justify-content:center}
-    img{max-width:100%;height:auto;display:block}
-    .wrap{width:min(900px,100%);padding:16px}
+    /* Sayfa reset */
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background: #f5f2ee;
+    }
+
+    /* Menü görseli */
+    img {
+      width: 100vw;        /* ekranın tamamı */
+      height: auto;        /* oran bozulmaz */
+      display: block;
+    }
   </style>
 </head>
+
 <body>
-  <div class="wrap">
-    <img src="menuv2.png" alt="Dosty Menü">
-  </div>
+  <img src="menuv2.png" alt="Dosty Menü">
 </body>
 </html>
-
